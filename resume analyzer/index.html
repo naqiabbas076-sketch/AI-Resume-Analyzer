@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Resume Analyzer + Job Matcher</h1>
+
+    <div class="section">
+        <label>Upload Resume (.txt)</label>
+        <input type="file" id="resumeFile">
+    </div>
+
+    <div class="section">
+        <label>Job Description</label>
+        <textarea id="jobDescription" rows="10"></textarea>
+    </div>
+
+    <button onclick="analyzeResume()">Analyze Resume</button>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
