@@ -11,7 +11,7 @@ document.getElementById("resumeFile").addEventListener("change", function(event)
     reader.onload = function(e) {
         resumeText = e.target.result.toLowerCase();
     };
-
+    
     reader.readAsText(file);
 });
 
